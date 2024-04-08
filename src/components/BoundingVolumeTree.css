@@ -1,0 +1,195 @@
+.microsoft-1-icon {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.microsoft-1-wrapper {
+  margin-left: -211px;
+  width: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.google-2015-1-icon {
+  align-self: stretch;
+  height: 31px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.octree-grid {
+  width: 99px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs-5);
+  box-sizing: border-box;
+}
+.kisspng-amazon-com-logo-brand-icon {
+  align-self: stretch;
+  height: 38px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.octree-grid1 {
+  width: 106px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.hire-for-1000,
+.input-processor {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 35%;
+}
+.hire-for-1000 {
+  width: 312px;
+  position: relative;
+  font-weight: 500;
+  align-items: center;
+ 
+
+ 
+}
+.input-processor {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.kisspng-nokia-networks-logo-ny-icon {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.vector-icon6 {
+  height: 42px;
+  width: 140px;
+  position: relative;
+}
+.microsoft-2-wrapper {
+  width: 131px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.octree-grid-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.logic-splitter,
+.octree-grid5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.logic-splitter {
+  width: 562px;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  
+}
+.octree-grid5 {
+  width: 131px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.bounding-volume-tree {
+  align-self: stretch;
+  background-color: var(--primary-300);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) var(--padding-54xl-5);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-plum);
+  font-family: var(--font-poppins);
+
+  justify-content: space-evenly;
+
+}
+
+
+
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  .bounding-volume-tree {
+    flex-direction: column;
+    align-items: center;
+  }
+.input-processor{
+  position: relative;
+  left: -30%;
+}
+  .octree-grid-parent > * {
+    max-width: 100%;
+    margin-bottom: 10px; /* Add spacing between items */
+    padding-top: 20px;
+  }
+
+  .octree-grid-parent {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    position: relative;
+    left: 30%;
+    padding-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

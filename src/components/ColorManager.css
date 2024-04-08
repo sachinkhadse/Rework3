@@ -1,0 +1,216 @@
+.questions {
+  font-family: var(--font-garnett-regular);
+}
+.frequently-asked-questions-container {
+  margin: 0;
+  height: 59px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  max-width: 100%;
+  font-family: inherit;
+}
+.frequently-asked-questions-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-59xl) 0 var(--padding-60xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.we-have-compiled {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-family: var(--font-poppins);
+  color: var(--black);
+}
+.data-sorter,
+.position-calculator {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.data-sorter {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-3xl);
+}
+.position-calculator {
+  width: 854px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.how-can-i {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.typcnplus-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image-cropping {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.how-can-i-get-started-with-rew-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.lorem-ipsum-dolor {
+  align-self: stretch;
+  height: 53px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 22px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.data-merger1 {
+  width: 854px;
+  border-radius: var(--br-3xs);
+  border: 2px solid var(--primary-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-7xl) var(--padding-base);
+  gap: var(--gap-5xl);
+}
+.typcnplus-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.color-palette1,
+.color-palette2 {
+  width: 854px;
+  border-radius: var(--br-3xs);
+  border: 2px solid var(--primary-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-2xl) var(--padding-12xl) var(--padding-2xl)
+    var(--padding-8xl);
+  gap: var(--gap-xl);
+}
+.color-palette2 {
+  padding: var(--padding-2xl) var(--padding-13xl) var(--padding-2xl)
+    var(--padding-9xl);
+}
+.color-manager,
+.hero,
+.link-resolver {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.link-resolver {
+  width: 854px;
+  overflow-x: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--black);
+  font-family: var(--font-poppins);
+}
+.color-manager,
+.hero {
+  box-sizing: border-box;
+}
+.hero {
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-88xl) var(--padding-xl) var(--padding-139xl);
+  gap: var(--gap-55xl);
+}
+.color-manager {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-94xl);
+  text-align: center;
+  font-size: var(--font-size-23xl);
+  color: var(--primary-100);
+  font-family: var(--font-garnett-semibold);
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: var(--padding-xl);
+    gap: var(--gap-lg);
+  }
+
+  .position-calculator,
+  .link-resolver {
+    width: 100%;
+    padding: var(--padding-lg);
+  }
+
+  .frequently-asked-questions-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 var(--padding-lg);
+  }
+
+  .data-sorter {
+    align-items: stretch;
+  }
+
+  .how-rework-ai-container {
+    height: auto;
+  }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .data-merger1,
+  .color-palette1,
+  .color-palette2 {
+    flex-basis: calc(100% - var(--gap-lg));
+    max-width: calc(100% - var(--gap-lg));
+  }
+}

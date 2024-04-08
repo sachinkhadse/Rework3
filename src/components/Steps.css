@@ -1,0 +1,53 @@
+.upload-documents {
+  width: 339.3px;
+  position: relative;
+  line-height: 29px;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.shortlist-the-most {
+  align-self: stretch;
+  position: relative;
+}
+.advanced-merger-team,
+.final-conditions-set {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.final-conditions-set {
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) var(--padding-lgi);
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-100);
+}
+.sequential-mergers-icon {
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0.3px;
+  border-radius: 0 0 0 var(--br-3xs);
+}
+.steps {
+  flex: 1;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs-3) var(--padding-41xl) var(--padding-11xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 299px;
+  min-height: 282px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

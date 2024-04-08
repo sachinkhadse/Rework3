@@ -1,0 +1,144 @@
+.talent-assessment {
+  font-family: var(--font-garnett-regular);
+}
+.discover-the-future-container {
+  margin: 0;
+  align-self: stretch;
+  height: 118px;
+  position: relative;
+  font-size: var(--font-size-23xl);
+  color: var(--primary-100);
+  display: flex;
+  align-items: center;
+  font-family: var(--font-garnett-semibold);
+}
+.facing-challenges-in {
+  margin: 0;
+}
+.facing-challenges-in-container {
+  align-self: stretch;
+  position: relative;
+}
+.manual-vs-machine-based {
+  font-family: var(--font-poppins);
+}
+.the-truth-about-interview-as {
+  margin-bottom: 0;
+}
+.manual-vs-machine-based-hirin {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-5xl);
+}
+.icon-repository {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.download-now-for {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.cta-button2,
+.icon-repository-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cta-button2 {
+  border-radius: var(--br-xl);
+  background-color: var(--primary-100);
+  box-shadow: 0 8px 18px rgba(174, 93, 255, 0.46);
+  flex-direction: row;
+  padding: var(--padding-2xl) var(--padding-37xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  color: var(--color-snow);
+}
+.icon-repository-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-75xl);
+  min-width: 502px;
+}
+.cta-child {
+  height: 563px;
+  width: 387px;
+  position: relative;
+  border-radius: var(--br-xs);
+  object-fit: cover;
+  max-width: 100%;
+}
+.color-palette,
+.cta {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cta {
+  flex: 1;
+  background-color: var(--white);
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-62xl) var(--padding-101xl) var(--padding-91xl);
+  gap: var(--gap-21xl);
+}
+.color-palette {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-49xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+  font-family: var(--font-poppins);
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .icon-repository-parent {
+    flex-direction: column; 
+    align-items: center; 
+    
+  }
+
+  .cta-button2 {
+    margin-top: 20px; 
+    padding-left: 150px;
+   
+  }
+
+  .cta-child {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto;
+    
+  }
+
+  .discover-the-future-container {
+    text-align: center;
+    font-size: 24px; 
+    padding-left: 100px;
+  }
+
+  .facing-challenges-in-container {
+    text-align: center; 
+    padding-left: 150px;
+  }
+}
+
+
+
+
+
